@@ -1,0 +1,36 @@
+<!-- text_analyzer.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neharika R.</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Neharika R.</h1>
+        <div class="nav-header">
+            <button id="navToggle">navigation</button>
+        </div>
+        <nav id="navLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="text-analyzer" class="section">
+        <div class="container">
+            <h2>text analyzer</h2>
+            <textarea id="textInput" rows="20" placeholder="Paste or type your text here..."></textarea>
+            <button id="analyzeBtn">Analyze</button>
+            <pre id="analysisOutput"></pre>
+        </div>
+    </section>
+
+    <script src="text_analyzer.js"></script>
+    <script src="event_tracker.js"></script>
+</body>
+</html>
